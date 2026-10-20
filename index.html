@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#09090b"><meta name="description" content="ScreenRate — descubra, assista e avalie.">
+<title>ScreenRate — Descubra. Assista. Avalie.</title>
+<link rel="stylesheet" href="site/css/style.css">
+<script src="site/js/app.js" defer></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#inicio" aria-label="ScreenRate, início"><span class="brand-mark">S</span>Screen<span>Rate</span></a><nav class="nav" id="nav"><a href="#inicio">Início</a><a href="explorar.html">Explorar</a><a href="avaliar.html">Avaliar</a><a href="#experiencia">Sobre</a></nav><div class="header-actions"><button class="search-toggle" id="searchToggle" aria-label="Abrir busca">⌕</button><button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button><a class="header-cta" href="login.html">Explorar agora <span>↗</span></a></div></header>
+<div class="search-panel" id="searchPanel" hidden><label for="siteSearch">Pesquisar na coleção</label><input id="siteSearch" type="search" placeholder="Digite o título de um filme..." autocomplete="off"><small>Os títulos e as imagens podem ser editados em site/js/app.js e site/img/.</small></div>
+<main id="inicio"><section class="hero"><div class="ambient"></div><div class="hero-posters" aria-hidden="true"><div class="poster p2" style="background-image:url('site/img/zero-gravity.png')"></div><div class="poster p3" style="background-image:url('site/img/tempestade-infinita.png')"></div><div class="poster p4" style="background-image:url('site/img/jardim-secreto.png')"></div><div class="poster p5" style="background-image:url('site/img/fronteira.png')"></div></div><div class="hero-content"><div class="eyebrow"><span class="dot"></span> UMA NOVA FORMA DE VIVER HISTÓRIAS</div><h1>Histórias que<br>merecem ser <em>sentidas.</em></h1><p>Descubra novas narrativas, acompanhe seus favoritos e encontre a próxima história que vai ficar com você.</p><div class="hero-buttons"><a class="btn-primary" href="explorar.html">Começar a explorar <span>↗</span></a><a class="btn-secondary" href="#experiencia">Conheça o ScreenRate ↓</a></div></div><div class="scroll-hint">ROLE PARA DESCOBRIR <span>↓</span></div></section>
+<section class="intro" id="experiencia"><div class="section-label">01 / A EXPERIÊNCIA</div><h2>Não é só assistir.<br>É <em>descobrir</em> o que fica.</h2><p>Um espaço para encontrar, explorar e guardar as histórias que fazem parte da sua vida.</p><div class="divider"></div></section>
+<section class="collection" id="colecao"><div class="section-top"><div><span class="section-label">02 / DESCUBRA</span><h2>Em destaque<span class="accent">.</span></h2></div><p>Explore a coleção de filmes em destaque.</p></div><div id="cards" class="cards"></div><p class="empty-state" id="emptyState" hidden>Nenhum título encontrado. Tente outra busca.</p></section>
+<section class="outro"><span class="section-label">03 / SUA PRÓXIMA HISTÓRIA</span><h2>Todo filme começa<br>com uma <em>descoberta.</em></h2><a href="#inicio" class="btn-primary">Voltar ao início ↑</a></section></main>
+<footer><span class="brand footer-brand"><span class="brand-mark">S</span>Screen<span>Rate</span></span><small>Projeto local editável • Versão demonstrativa</small><span>© <span id="year"></span> ScreenRate</span></footer>
+</body></html>
